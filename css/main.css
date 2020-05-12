@@ -1,0 +1,107 @@
+body {
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
+  color: #095156;
+}
+
+#container {
+  width: 1200px;
+  margin: auto;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: #313131;
+  font-size: 60px;
+  font-weight: bold;
+  clear: both;
+}
+
+h1 #computer-image {
+  padding-top: 100px;
+}
+
+h1 span {
+  font-family: 'Pacifico', cursive;
+  color: #33cccc;
+}
+
+h2 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 36px;
+  font-weight: bold
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header {
+  height: 800px;
+}
+
+nav {
+  float: right;
+  padding: 25px 25px 125px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none; /* GETS RID OF UNDERLINE IN LINK */
+  font-size: 18px;
+  color: #828282;
+  padding-left: 60px;
+}
+
+#about {
+  height: 1050px;
+  background-color: #CC6C33;
+  color: white;
+}
+
+#portfolio {
+  height: 850px;
+}
+
+#portfolio img#holstee-image, img#jubilee-image, img#rogue-image {
+  width: 350px;
+}
+
+#contact {
+  height: 650px;
+  background-color: #803306;
+  color: white;
+}
+
+#contact span {
+  color: white;
+  font-size: 18px;
+}
