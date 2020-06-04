@@ -14,11 +14,6 @@ body {
   margin: 0 auto;
 }
 
-.half-width {
-  width: 600px;
-  float: left;
-}
-
 .third-width {
   width: 400px;
   float: left;
@@ -50,12 +45,12 @@ h2 {
 h3 {
   font-family: 'Libre Baskerville', serif;
   font-size: 36px;
-  font-weight: bold
-  text-align: center;
+  font-weight: bold;
+  margin: 45px 0;
 }
 
 h4 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
@@ -70,7 +65,7 @@ nav {
 }
 
 nav ul li {
-  display: inline-block;
+  display: inline-block; /*Lägger dem efter varann*/
 }
 
 nav ul li a {
@@ -82,26 +77,61 @@ nav ul li a {
 }
 
 #about {
-  height: 1050px;
+  height: 850px;
   background-color: #CC6C33;
   color: white;
+  text-align: center;
+  padding: 100px 250px;
+}
+
+.me-image {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
 }
 
 #portfolio {
-  height: 850px;
+  height: 650px;
+  padding: 100px 0;
+  text-align: center;
 }
 
 #portfolio img#holstee-image, img#jubilee-image, img#rogue-image {
   width: 350px;
+  height: 225px;
+  overflow: hidden;
 }
 
 #contact {
-  height: 650px;
+  height: 450px;
   background-color: #803306;
   color: white;
+  text-align: center;
+  padding: 100px 0;
+  display: inline-block;
 }
 
-#contact span {
+a:link {
   color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  text-decoration: none;
+}
+
+img.contact {
+  width: 15%;
+  padding: 20px;
+}
+#footer {
   font-size: 18px;
+  clear:both;
+  padding-top: 80px;
 }
