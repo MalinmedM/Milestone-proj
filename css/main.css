@@ -46,7 +46,7 @@ h3 {
   font-family: 'Libre Baskerville', serif;
   font-size: 36px;
   font-weight: bold;
-  margin: 45px 0;
+  margin: 0 0 50 0;
 }
 
 h4 {
@@ -84,6 +84,15 @@ nav ul li a {
   padding: 100px 250px;
 }
 
+#about p {
+  width: 75%;
+  margin: 30px auto;
+}
+
+#about p span {
+  color: lightcyan;
+}
+
 #about img {
   width: 350px;
   height: 350px;
@@ -114,7 +123,7 @@ nav ul li a {
   display: inline-block;
 }
 
-a:link {
+a {
   color: white;
   text-decoration: none;
 }
